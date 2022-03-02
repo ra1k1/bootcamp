@@ -1,0 +1,170 @@
+/* reset declaration */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: sans-serif;
+}
+p,a{
+  font-family: serif;
+}
+.header{
+  border: 4px solid red;
+  padding: 20px;
+}
+.header h1{
+  /* border: 2px dashed green; */
+  float: left;
+}
+.header .sns{
+  border: 2px dashed purple;
+  float: right;
+  margin-top: 1em;
+}
+.header .sns a{
+  border: 1px solid black;
+  display: block;
+  width: 100px;
+}
+.header p{
+  /* border: 2px dashed black; */
+  clear: both;
+}
+.nav{
+  border: 4px solid red;
+  overflow: auto;
+  padding: 20px;
+}
+.nav img{
+  border: 2px dashed green;
+  float: left;
+}
+.nav ul{
+  border: 2px dashed purple;
+  float: right;
+}
+.nav ul li{
+  border: 1px solid black;
+  width: 100px; /* no support */
+  display: inline;
+}
+.section{
+  border: 4px solid red;
+  overflow: auto;
+}
+.article{
+  border: 2px dashed blue;
+  height: 500px;
+  width: 70%;
+  float: left;
+  padding: 20px;
+}
+.sidebar{
+  border: 2px dashed green;
+  height: 500px;
+  width: 30%;
+  float: left;
+  padding: 20px;
+
+}
+.footer{
+  border: 4px solid red;
+  text-align: center;
+  overflow: auto;
+  padding: 10px 0;
+}
+.footer .logo{
+  /* border: 2px dashed yellow; */
+  float: left;
+  width: 33.33%;
+}
+.logo img{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  display: block;
+}
+.footer p{
+  /* border: 2px dashed green; */
+  float: left;
+  width: 33.33%;
+  padding: 1em 0;
+}
+.footer .footer-sns{
+  /* border: 2px dashed black; */
+  float: left;
+  width: 33.33%;
+  padding: 1em;
+}
+
+.footer-sns a{
+  border: 1px solid black;
+  width: 100px;
+  display: inline-block;
+}
+
+/* Position properties
+        values:
+            static = default
+            relative = move from original position
+            fixed = move from structure position
+            absolute = move from body structure position
+
+        offset properties (movement)
+        left:0;
+        top:0;
+        right:
+        bottom:
+
+*/
+.static{
+  border: 2px solid yellow;
+  width: 80px;
+  height: 80px;
+  position: static;
+  left: 100px; /* no support */
+}
+.relative{
+  background: purple;
+  border: 2px solid purple;
+  width: 80px;
+  height: 80px; 
+  position: relative;
+  left: 150px;
+  top: 50px;
+  /* right: 50px; */
+  z-index: 100;
+}
+.fixed{
+  background: green;
+  border: 2px solid green;
+  width: 80px;
+  height: 80px; 
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 1;
+}
+.absolute{
+  background: blue;
+  border: 2px solid blue;
+  width: 80px;
+  height: 80px; 
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  z-index: 2;
+}
+
+.relative-2{
+  background: gray;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  /* left: 0;
+  bottom: 0; */
+  z-index: 101;
+}

@@ -1,0 +1,130 @@
+    /*reset declaration */
+*{
+  box-sizing: border-box;
+}
+.header{
+  background-color: gray;
+  width: 80%;
+  margin: 30px;
+  margin-bottom: -10px;
+  padding: 20px;
+  /* overflow: auto; */
+  /* overflow: scroll; */
+  overflow: hidden;
+  box-shadow: 3px 3px 5px red;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header h1{
+  background-color: yellowgreen;
+  width: 500px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header a{
+  background-color: aqua;
+  width: 500px;/* no support */
+  margin-left: 10px;
+  margin-bottom: 20px;/*no support*/
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  /* text-decoration: none; */
+}
+.nav{
+  background-color: tomato;
+  margin: 40px auto;
+  padding: 20px;
+  width: 600px;
+}
+.nav img{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  padding: 10px;
+  /* box-sizing: content-box; */
+}
+.section{
+  background-color: silver;
+  margin-left: 20px;
+  margin-right: 50px;
+  /* margin-bottom: -60px; */
+  margin-bottom: 40px;
+  padding: 20px 30px 20px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-1{
+  width: 60%;
+  height: 300px;
+  /* overflow: auto; */
+  /* overflow: scroll; */
+  overflow: hidden;
+}
+.section div{
+  margin: 20px 0;
+}
+.solid{
+  border: 10px solid tomato;
+  border-bottom: none;
+}
+.dotted{
+  border: 10px dotted teal;
+  border-style: double groove dotted;
+}
+.dashed{
+  border: 10px dashed crimson;
+  border-width: 5px 8px 15px 3px;
+}
+.double{
+  border: 10px double seagreen; 
+  border-color: red blue ;
+}
+.groove{
+  border: 10px groove purple;
+}
+.ridge{
+  border: 10px ridge darkcyan;
+}
+.inset{
+  border: 10px inset dodgerblue;
+}
+.outset{
+  border: 10px outset goldenrod;
+}
+.radius{
+  border: 10px solid black;
+  border-radius: 50px 100px 30px 10px;
+}
+.circle{
+  border: 5px solid red;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  padding: 50px;
+  box-sizing: content-box;
+}
+.footer{
+  background-color: purple;
+  padding: 20px;
+}
+.box-1{
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+  /* box-sizing: content-box; */
+  margin:auto;
+}
+.box-2{
+  border: 2px solid yellow;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  /* box-sizing: content-box; */
+  margin: 10px auto;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Element</title>
+</head>
+<body>
+  <!-- Tbale Elements
+          table = parent element
+          tr = table row(row)
+          th = table header (heading column)
+          td = table data (data column)
+
+          colspan = merge column cells
+          rowspan = merge row cells
+
+          grouping table contents
+              thead = group head contents
+              tbody = group body contents
+              tfoot = group foot contents
+  -->
+  <h2>Sample table using TH</h2>
+  <table border="1" width="300px">
+    <tr>
+      <th>title 1</th>
+      <th>title 2</th>
+      <th>title 3</th>
+      <th rowspan="3">title 4</th>
+    </tr>
+    <tr>
+      <th>title 5</th>
+      <th>title 6</th>
+      <th>title 7</th>
+      <!-- <th>title 8</th> -->
+    </tr>
+    <tr>
+      <th>title 9</th>
+      <th>title 10</th>
+      <th>title 11</th>
+      <!-- <th>title 12</th> -->
+    </tr>
+  </table>
+
+  <h2>Sample table using TD</h2>
+  <table border="1" width="300px">
+    <tr>
+      <td colspan="4">data 1</td>
+      <!-- <td>data 2</td>
+      <td>data 3</td>
+      <td>data 4</td> -->
+    </tr>
+    <tr>
+      <td>data 5</td>
+      <td>data 6</td>
+      <td>data 7</td>
+      <td>data 8</td>
+    </tr>
+    <tr>
+      <td>data 9</td>
+      <td>data 10</td>
+      <td>data 11</td>
+      <td>data 12</td>
+    </tr>
+  </table>
+
+
+  <h2>Sample table using TH and TD</h2>
+  <table border="1" width="100%" >
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Age</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>John Smith</td>
+      <td>California</td>
+      <td>35</td>
+      <td>johnsmith@yahoo.com</td>
+    </tr>
+    <tr>
+      <td>Thomas Wrap</td>
+      <td>Nebrasaka</td>
+      <td>45</td>
+      <td>thomas1234@gmail.com</td>
+    </tr>
+  </table>
+
+  <h2>Sample table using Colspan</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Contact Numbers</th>
+      <!-- <th></th> -->
+    </tr>
+    <tr>
+      <td>Bill Gates</td>
+      <td>3874859569</td>
+      <td>2348938538</td>
+    </tr>
+    <tr>
+      <td>Steve Jobs</td>
+      <td>7547857754</td>
+      <td>5958683945</td>
+    </tr>
+
+
+  </table>
+
+  <h2>Sample table using Rowspan</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>Bill Gates</td>
+      <td>Steve Jobs</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Contact Numbers</th>
+      <td>3659828758</td>
+      <td>5467892875</td>
+    </tr>
+    <tr>
+      <!-- <th></th> -->
+      <td>7845634564</td>
+      <td>5793485753</td>
+    </tr>
+  </table>
+
+  <h2>Sample table grouping table contents</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>title 1</th>
+        <th>title 2</th>
+        <th>title 3</th>
+      </tr>
+      <tr>
+        <th>subtitle 1</th>
+        <th>subtitle 2</th>
+        <th>subtitle 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+      </tr>
+      <tr>
+        <td>data 4</td>
+        <td>data 5</td>
+        <td>data 6</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>total 1</th>
+        <th>total 2</th>
+        <th>total 3</th>
+      </tr>
+    </tfoot>
+
+  </table>
+</body>
+</html>
